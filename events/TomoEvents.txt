@@ -1,0 +1,32 @@
+country_event = {
+	id = johncena
+	title = johncena.title
+	desc = johncena.desc
+	picture = JOHNCENA_eventPicture
+		trigger = { 
+			current_date = 1444.11.12
+			ai = no
+			NOT = {
+				has_leader = "John Cena"
+			}
+		}
+	immediate = {
+		play_sound = you_cant_see_me
+	}
+	mean_time_to_happen = {
+		months = 0
+	}
+	option = {
+		name = johncenageneral
+		define_general = {
+                name = "John Cena"
+                shock = 3
+                fire = 3
+                manuever = 3
+                siege = 0
+				age = 18
+            }
+		}
+
+	}
+}

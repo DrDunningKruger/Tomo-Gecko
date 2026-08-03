@@ -1,0 +1,37 @@
+defensive_of_the_alps = {
+	potential = {
+		ROOT = {
+			ai = no
+		}
+	}
+	trigger = {
+		NOT = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 40
+			}
+		}
+		NOT = {
+			is_lacking_institutions = yes
+		}
+		OR = {
+			great_power_rank = 6
+			NOT = {
+				total_own_and_non_tributary_subject_development = 500
+		}
+		}
+		NOT = {
+			is_emperor = yes
+		}
+		NOT = {
+			current_age = age_of_discovery
+		}
+		OR = {
+			tag = SAC
+			tag = SWI
+		}
+	}
+	global_defender_dice_roll_bonus = 1
+	hostile_attrition = 1
+}
+
+

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+
+#############################################
+	
+####### TOMO EVENT IMAGES #########
+
+spriteType = {
+        name = "JOHNCENA_eventPicture"
+        texturefile = "gfx/event_pictures/JOHNCENA_eventPicture.dds"
+		allwaystransparent = yes
+    }
+}
