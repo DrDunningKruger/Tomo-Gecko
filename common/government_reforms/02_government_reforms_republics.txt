@@ -371,7 +371,6 @@ merchants_reform = {
 			has_dlc = "Mare Nostrum"
 		}
 		can_use_trade_post = yes
-		can_form_trade_league = yes
 		trade_city_reform = trading_city
 	}
 	custom_attributes = {

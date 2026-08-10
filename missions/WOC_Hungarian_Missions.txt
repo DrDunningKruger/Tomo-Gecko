@@ -210,10 +210,12 @@ woc_hun_first_branch = {
 				}
 				custom_tooltip = hun_serbia_cb_tt_yes
 				tooltip = {
-					add_casus_belli = {
-						type = cb_vassalize_mission
-						months = 300
-						target = SER
+					serbia_area = {
+						limit = {
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}	
+						add_permanent_claim = ROOT
 					}
 				}
 			}

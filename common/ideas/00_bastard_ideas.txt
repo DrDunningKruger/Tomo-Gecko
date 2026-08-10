@@ -880,8 +880,8 @@ SWI_ideas = {
 		development_cost = -0.05
 	}
 	alpine_defensiveness = {
-		fort_maintenance_modifier = -0.2
-		defensiveness = 0.25
+		fort_maintenance_modifier = -0.15
+		defensiveness = 0.15
 	}
 	clockwork = {
 		production_efficiency = 0.1
@@ -891,6 +891,7 @@ SWI_ideas = {
 	}
 	haven_for_refugees = {
 		prestige = 1
+		global_tax_modifier = 0.1
 	}
 	swiss_tolerance = {
 		tolerance_heretic = 2
@@ -4450,7 +4451,7 @@ OTR_ideas = {
 SAC_ideas = {
 	start = {
 		republican_tradition = 1
-		infantry_power = 0.1
+		infantry_power = 0.15
 	}
 	
 	bonus = {
@@ -4468,25 +4469,25 @@ SAC_ideas = {
 	}
 	SAC_idea2 = {
 		build_cost = -0.1
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	alpine_defensiveness = {
 		fort_maintenance_modifier = -0.2
-		defensiveness = 0.25
+		defensiveness = 0.15
 	}
 	clockwork = {
 		production_efficiency = 0.10
 	}
 	SAC_idea5 = {
-		regiment_manpower_usage = -0.15
+		global_manpower_modifier = 0.2
 	}
 	defense_in_depth = {
-		morale_damage = 0.1
+		land_morale = 0.1
 		prestige = 1
 		
 	}
 	SAC_idea7 = {
 		tolerance_heretic = 2
-		global_tax_modifier = 0.20
+		global_tax_modifier = 0.10
 	}
 }

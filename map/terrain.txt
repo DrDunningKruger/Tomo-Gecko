@@ -187,8 +187,8 @@ categories =  {
 		sound_type = mountains
 
 		movement_cost = 1.0
-		defence = 2
-		local_defensiveness = 0.20
+		defence = 1
+		local_defensiveness = 0.10
 		local_development_cost = 0.1
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
@@ -334,8 +334,8 @@ categories =  {
 
 		movement_cost = 1.0
 		defence = 2
-		local_defensiveness = 0.25
-		local_development_cost = 0.1
+		local_defensiveness = 0.15
+		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 	

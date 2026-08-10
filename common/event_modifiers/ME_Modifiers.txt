@@ -801,7 +801,8 @@ HES_member_of_the_league = {
 }
 
 HES_mercs = {
-	possible_condottieri = 1
+	mercenary_discipline = 0.025
+	mercenary_manpower = 0.1
 }
 
 HES_militarization_modifier = {
