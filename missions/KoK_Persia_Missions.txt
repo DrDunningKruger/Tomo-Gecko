@@ -3237,14 +3237,14 @@ kok_persia_culture_mission_slot_2 = {
 					}
 				}
 				AND = {
-					province_id = 1334
+					province_id = 2999
 					NOT = { trade_share = { country = root share = 75 } }
 				}
 			}
 		}
 		trigger = {
 			owns_core_province = 431
-			1334 = {
+			2999 = {
 				trade_share = {
 					country = root
 					share = 75
@@ -3445,14 +3445,20 @@ kok_persia_culture_mission_slot_3 = {
 		provinces_to_highlight = {
 			has_discovered = root
 			OR = {
-				province_id = 1816
-				province_id = 1821
-				province_id = 667
+				province_id = 2999
+				province_id = 597
+				province_id = 446
 			}
 		}
 		trigger = {
+			owns_core_province = 2999
+			owns_core_province = 597
+			owns_core_province = 446
 		}
 		effect = {
+			add_years_of_trade_income = {
+				years = 1
+			}
 		}
 	}
 }

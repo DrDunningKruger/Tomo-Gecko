@@ -614,13 +614,13 @@ TUN_missions_2 = {
 				}
 			}
 			
-			add_adm_power = 100
+			add_adm_power = 150
 			
 			#imrpove catalan guard national idea?
-			custom_tooltip = " "
-			custom_tooltip = TUN_modify_catalan_guard
-			set_country_flag = TUN_modify_catalan_guard
-			swap_free_idea_group = yes
+			#custom_tooltip = " "
+			#custom_tooltip = TUN_modify_catalan_guard
+			#set_country_flag = TUN_modify_catalan_guard
+			#swap_free_idea_group = yes
 		}
 	}
 	
