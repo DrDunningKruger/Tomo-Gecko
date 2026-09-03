@@ -661,6 +661,7 @@ military_innovation_act = {
 	}
 	
 	yearly_innovativeness = 0.25
+	monthly_reform_progress_modifier = 0.25
 
 	effect = {}
 	removed_effect = {}
@@ -683,7 +684,7 @@ efficient_war_taxes_act = {
 	}
 
 	mercenary_cost = -0.1
-	mercenary_discipline = 0.025
+	war_taxes_cost_modifier = -1
 
 	effect = {}
 	removed_effect = {}

@@ -12,8 +12,8 @@ client_state_act = {
 		full_idea_group = influence_ideas 
 	}
 	
-	vassal_forcelimit_bonus = 0.5
-	allow_client_states = yes 
+	vassal_forcelimit_bonus = 0.25
+	production_efficiency = 0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -470,8 +470,8 @@ loyal_conduct_act = {
 		full_idea_group = spy_ideas 
 	}
 	
-	siege_ability = 0.15
-
+	siege_ability = 0.2
+	province_warscore_cost = -0.05
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {
@@ -480,7 +480,7 @@ loyal_conduct_act = {
 }
 
  diplomatic_arms_act = { 
- 	monarch_power = MIL
+ 	monarch_power = DIP
  	
  	potential = {
  		has_idea_group = mercenary_ideas
@@ -492,7 +492,10 @@ loyal_conduct_act = {
  		full_idea_group = diplomatic_ideas 
  	}
  	
- 	mercenary_discipline = 0.03
+ 	heir_chance = 0.5
+	monthly_support_heir_gain = 0.2
+	yearly_corruption = -0.25
+
  	
  	effect = {}
  	removed_effect = {}

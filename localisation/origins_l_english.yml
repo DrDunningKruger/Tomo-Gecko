@@ -1449,7 +1449,7 @@
  zan_explore_the_malacca_trade_tt:0 "§Y[Root.GetName]§! gains permanent claims on the islands §YSumatra§! and §YJava§!."
  zan_conquer_madagascar_tt:0 "Every province of §YMadagascar§! owned by [Root.GetName] or its subjects get the province modifier '§YSwahili Overtaking§!' for §Y25 years§!, giving the following events:\nLocal Missionary Strength: §G+2.0%§!\nLocal Goods Produced: §G+0.25§!"
  zan_colonize_the_cape_ct:0 "§Y[Root.GetName]§! gains a permanent claim on every province with a §YCenter of Trade§! in the §YKongo§! and §YCentral Africa§! region."
- zan_settle_trade_posts_ct:0 "Gain §G4 years§! worth of Trade Income."
+ zan_settle_trade_posts_ct:0 "Gain §G1 years§! worth of Trade Income."
  ZAN_DOMINATION:0 "Kilwan Merchant Domination"
  ###ETHIOPIA MISSION REWARDS###
  eth_legacy_of_alexandria:0 "Legacy of Alexandria"

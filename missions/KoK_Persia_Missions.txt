@@ -3446,18 +3446,19 @@ kok_persia_culture_mission_slot_3 = {
 			has_discovered = root
 			OR = {
 				province_id = 2999
-				province_id = 597
+				province_id = 576
 				province_id = 446
 			}
 		}
 		trigger = {
 			owns_core_province = 2999
-			owns_core_province = 597
+			owns_core_province = 576
 			owns_core_province = 446
 		}
 		effect = {
 			add_years_of_trade_income = {
 				years = 1
+			custom_tooltip = zan_settle_trade_posts_ct
 			}
 		}
 	}
